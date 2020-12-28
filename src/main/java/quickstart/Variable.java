@@ -31,4 +31,6 @@ public class Variable {
     浮点数类型：float, double
     字符类型：char
     布尔类型：boolean
+
+引用类型：引用类型的变量类似于c语言的指针，它内部存储一个“地址”，指向某个对象在内存的位置。
  */
