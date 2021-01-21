@@ -18,4 +18,13 @@ public class Bike extends Car{
 //        super(brand, model);
         this.type = type;
     }
+
+    public Bike(){
+
+    }
+
+    @Override
+    public void hello(){
+        System.out.println("hello,子类"+this.color);
+    }
 }

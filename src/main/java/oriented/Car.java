@@ -56,7 +56,7 @@ public class Car {
     重载方法返回值类型应该相同
      */
     public void hello(){
-        System.out.println("Mers");
+        System.out.println("父类");
     }
 
     public void hello(String name){
