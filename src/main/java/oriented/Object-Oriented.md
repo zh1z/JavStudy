@@ -32,3 +32,20 @@ As you've already learned, objects define their interaction with the outside wor
 ## What is a package
 
 A package is a namespace for organizing classes and interfaces in a logical manner. 
+
+## 作用域
+- public 
+  - 定义为public的class、interface可以被其他任何类访问
+  - 定义为public的field、method可以被其他类访问，前提是首先有访问class的权限
+- private
+  - 定义为private的field、method无法被其他类访问
+- protected
+  - protected作用于继承关系。定义为protected的字段和方法可以被子类访问，以及子类的子类
+- package
+  - 包作用域是指一个类允许访问同一个package的没有public、private修饰的class，以及没有public、protected、private修饰的字段和方法。
+- final
+  - final修饰的类可以阻止被继承；
+  - final修饰的method可以阻止被子类override；
+  - final修饰的field可以阻止被重新赋值；
+  - final修饰的局部变量可以阻止被重新赋值；
+    

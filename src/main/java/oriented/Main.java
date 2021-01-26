@@ -19,5 +19,19 @@ public class Main {
         carCast.hello();
         car.hello();
 
+
+        Bike giant = new Bike();
+        Bike merida = new Bike();
+        giant.speed = 27; //更好的写法是Bike.speed;
+        System.out.println(merida.speed);
+        merida.speed = 25;
+        System.out.println(giant.speed);
+        //虽然实例可以访问静态字段，但是它们指向的都是 Bike class的静态字段。所以，所有实例共享一个静态字段。
+        System.out.println(Bike.speed);
+
+
+        /*
+        作用域：
+         */
     }
 }

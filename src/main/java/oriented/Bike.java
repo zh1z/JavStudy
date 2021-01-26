@@ -3,6 +3,8 @@ package oriented;
 public class Bike extends Car{
     //通过继承，子类自动获得父类的所有字段，严禁定义与父类重名的字段
     protected int type;
+    //定义静态字段 speed
+    public static int speed;
 
     public String bikeColor(){
         //用protected修饰的字段和方法可以被其子类，以及子类的子类访问
