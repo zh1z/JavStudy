@@ -1,6 +1,6 @@
 package coreclass;
 
-public class Main {
+public class StringMain {
     public static void main(String[] args) {
         //String
         String s1 = "hello!"; //字符串在String内部是通过一个char[]数组表示的。
